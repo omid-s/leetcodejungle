@@ -7,12 +7,18 @@ This solution traverses each of the lists once, and only stores the return list.
 
 ## Time
 
-each node in the list is traversed eactly once, thus the running time is O(|l1| + |l2|) where "|" shows the length.
+each node in the list is traversed exactly once, thus the running time is O(|l1| + |l2|) where "|" shows the length.
 
 ## space
 
 only one extra list is created, this list is of order O(max(|l1|, |l2|) + 1) this happens because the last number may
 produce carry overs.
+
+
+# Results
+
+Runtime: 56 ms, faster than 99.35% of Python3 online submissions for Add Two Numbers.
+Memory Usage: 12.6 MB, less than 100.00% of Python3 online submissions for Add Two Numbers.
 
 """
 
@@ -21,7 +27,12 @@ from classes.ListNode import ListNode
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-
+        """
+        adds two numbers represented as linked lists
+        :param l1: first number
+        :param l2: second number
+        :return: the result as linked list
+        """
         digit, carry = self.add_with_carry(l1.val, l2.val)
         l1 = l1.next
         l2 = l2.next
