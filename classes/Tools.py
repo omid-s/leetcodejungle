@@ -52,3 +52,15 @@ def print_linked_list(inp: ListNode):
     the_string = " -> ".join([str(x) for x in linked_list_to_list(inp)])
 
     print(the_string)
+
+
+def add_with_carry(n1: int, n2: int, carry=0):
+    """
+    adds two single digit numbers and returns the result in term of a single digit and a carry
+    :param n1: first number
+    :param n2: second number
+    :param carry: carry from previous steps
+    :return: the digit, the carry
+    """
+    num = n1 + n2 + carry
+    return num % 10, num // 10
