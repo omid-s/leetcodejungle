@@ -1,4 +1,4 @@
-from twosums.solution_1 import Solution
+from problems.twosums.solution_1 import Solution
 
 inputs = [
     [[2, 7, 11, 15], 9],
