@@ -12,7 +12,7 @@ outputs =[
 
 for index in range(len(inputs)):
     ret = Solution().twoSum(inputs[index][0], inputs[index][1])
-    print(ret)
+    print(outputs[index], "-->", ret)
     assert ret == outputs[index]
 
 print("All tests passed")
