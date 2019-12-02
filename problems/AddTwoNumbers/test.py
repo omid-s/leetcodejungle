@@ -15,14 +15,13 @@ outputs = [
 
 for index in range(len(inputs)):
     l1 = list_to_linked_list(inputs[index][0])
-    l2 = list_to_linked_list(inputs[index][2])
+    l2 = list_to_linked_list(inputs[index][1])
 
     print_linked_list(l1)
     print_linked_list(l2)
-    print("----------------------")
     ret = linked_list_to_list(Solution().addTwoNumbers(l1, l2))
     print(outputs[index], "-->", ret)
-
+    print("----------------------")
     assert ret == outputs[index]
 
 print("All tests passed")
