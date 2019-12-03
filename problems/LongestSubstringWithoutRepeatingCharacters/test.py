@@ -4,14 +4,16 @@ inputs = [
     "abcabcbb",
     "bbbbb",
     "pwwkew",
-    "abkjsdh"
+    "abkjsdh",
+    "abcabcbb"
 ]
 
 outputs = [
     3,
     1,
     3,
-    7
+    7,
+    3
 ]
 
 for index in range(len(inputs)):
