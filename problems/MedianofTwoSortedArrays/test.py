@@ -3,13 +3,17 @@ from problems.MedianofTwoSortedArrays.solution_1 import Solution
 inputs = [
     [[1, 3], [2]],
     [[1, 2], [3, 4]],
-    [[1, 3, 9], [4, 5, 10]]
+    [[1, 3, 9], [4, 5, 10]],
+    [[1, 2, 3], []]
+    [[3, 6, 9, 10, 21], [2]]
 ]
 
 outputs = [
     2.0,
     2.5,
-    4.5
+    4.5,
+    2.0,
+    7.5
 ]
 
 for index in range(len(inputs)):
