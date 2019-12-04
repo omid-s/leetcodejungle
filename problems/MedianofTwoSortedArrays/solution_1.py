@@ -1,9 +1,27 @@
 
 """
+contains solution to Median of two sorted arrays problem
 
+# Analysis
 
+## Time
+
+based on the length of the sequences the mid point is found, so only up to the midpoint is traversed, this makes this
+solution an O( (l(a) + l(b)) /2) which is equal to O(l(a)+l(b))
+
+## Space
+
+This solution stores only three variables the current number, the past number and the counter, thus space complexity is
+of O(1)
+
+# Improvement
+
+since both the sequences are known to be sorted a double binary search tree approach will reduce the complexity to an
+O(log(l(a)+l(b))).
 
 """
+
+
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2) -> float:
         l1 = len(nums1)
