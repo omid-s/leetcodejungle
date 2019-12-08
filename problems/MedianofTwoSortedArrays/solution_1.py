@@ -19,6 +19,11 @@ of O(1)
 since both the sequences are known to be sorted a double binary search tree approach will reduce the complexity to an
 O(log(l(a)+l(b))).
 
+# Results
+
+Runtime: 104 ms, faster than 74.01% of Python3 online submissions for Median of Two Sorted Arrays.
+Memory Usage: 12.9 MB, less than 100.00% of Python3 online submissions for Median of Two Sorted Arrays.
+
 """
 
 
