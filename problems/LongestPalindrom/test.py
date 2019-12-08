@@ -5,15 +5,19 @@ inputs = [
     "bbbbb",
     "pwwkew",
     "sdhabba",
-    "miokoim"
+    "miokoim",
+    "a",
+    ""
 ]
 
 outputs = [
-    "abc",
+    "abccba",
     "bbbbb",
     "ww",
     "abba",
-    "miokoim"
+    "miokoim",
+    "a",
+    ""
 ]
 
 for index in range(len(inputs)):
