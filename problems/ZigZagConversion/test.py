@@ -1,17 +1,19 @@
-from problems.ZigZagConversion.solution_1 import Solution
+from problems.ZigZagConversion.solution_3 import Solution
 
 inputs = [
     ["PAYPALISHIRING", 3],
     ["PAYPALISHIRING", 4],
     ["PAYPALISHIRING", 14],
-    ["PAYPALISHIRING", 18]
+    ["PAYPALISHIRING", 18],
+    ["ABC", 2]
 ]
 
 outputs = [
     "PAHNAPLSIIGYIR",
     "PINALSIGYAHRPI",
     "PAYPALISHIRING",
-    "PAYPALISHIRING"
+    "PAYPALISHIRING",
+    "ACB"
 ]
 
 for index in range(len(inputs)):
