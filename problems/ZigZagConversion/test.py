@@ -2,12 +2,16 @@ from problems.ZigZagConversion.solution_1 import Solution
 
 inputs = [
     ["PAYPALISHIRING", 3],
-    ["PAYPALISHIRING", 4]
+    ["PAYPALISHIRING", 4],
+    ["PAYPALISHIRING", 14],
+    ["PAYPALISHIRING", 18]
 ]
 
 outputs = [
-    ["PAHNAPLSIIGYIR"],
-    ["PINALSIGYAHRPI"]
+    "PAHNAPLSIIGYIR",
+    "PINALSIGYAHRPI",
+    "PAYPALISHIRING",
+    "PAYPALISHIRING"
 ]
 
 for index in range(len(inputs)):
