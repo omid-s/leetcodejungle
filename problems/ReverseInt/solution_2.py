@@ -1,7 +1,11 @@
 """
 # info
 a better implementation of the int reverse problem, this still assumes a bigger container for the integer, eg. the
-integer is assumed to be more than 32 bits so that the inverse can fit in it
+integer is assumed to be more than 32 bits so that the inverse can fit in it.
+
+This can be easily fixed by assuming the `ret` variable as an unsigned variable, which can thus store significantly
+larger values using that added bit.  Once this is assumed the rest can go as was, except for the last step should be
+conversion of the number to a signed variable.
 
 # results
 Runtime: 32 ms, faster than 75.33% of Python3 online submissions for Reverse Integer.
