@@ -1,11 +1,13 @@
 """
 # Info
-
+implements an atoi
 
 # Results
+Runtime: 32 ms, faster than 85.51% of Python3 online submissions for String to Integer (atoi).
+Memory Usage: 13.8 MB, less than 71.84% of Python3 online submissions for String to Integer (atoi).
 
 # Analysis
-
+runs in worst case O(len(str))
 """
 
 import math
