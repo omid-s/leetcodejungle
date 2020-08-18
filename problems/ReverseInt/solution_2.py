@@ -1,11 +1,14 @@
 """
 # info
-a better implementation of the int reverse problem
+a better implementation of the int reverse problem, this still assumes a bigger container for the integer, eg. the
+integer is assumed to be more than 32 bits so that the inverse can fit in it
 
 # results
-
+Runtime: 32 ms, faster than 75.33% of Python3 online submissions for Reverse Integer.
+Memory Usage: 14 MB, less than 6.44% of Python3 online submissions for Reverse Integer.
 
 # analysis
+the code runs in O(log_10(x))
 
 """
 
