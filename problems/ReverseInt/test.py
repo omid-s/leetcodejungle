@@ -1,4 +1,4 @@
-from problems.ReverseInt.solution_1 import Solution
+from problems.ReverseInt.solution_2 import Solution
 
 inputs = [
     123,
