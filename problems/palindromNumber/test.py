@@ -1,4 +1,4 @@
-from problems.palindromNumber.solution_1 import Solution
+from problems.palindromNumber.solution_2 import Solution
 
 inputs = [
     123,
