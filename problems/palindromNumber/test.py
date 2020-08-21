@@ -1,16 +1,18 @@
-from problems.palindromNumber.solution_2 import Solution
+from problems.palindromNumber.solution_3 import Solution
 
 inputs = [
     123,
     -322,
     121,
     112211,
+    23432,
     949
 ]
 
 outputs = [
     False,
     False,
+    True,
     True,
     True,
     True
