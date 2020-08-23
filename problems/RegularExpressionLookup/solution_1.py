@@ -1,6 +1,9 @@
 """
 # Info
 
+This solution FAILS the tests. the issue is with the end of the state machines, once the .* or X* is
+present the solution messes up the results :_)
+
 # Results
 
 # Analysis
