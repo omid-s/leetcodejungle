@@ -3,12 +3,10 @@ from problems.LongestCommonPrefix.solution_1 import Solution
 inputs = [
     ["flower", "flow", "flight"],
     ["dog", "racecar", "car"]
-
 ]
 outputs = [
     "fl",
     ""
-
 ]
 
 for index in range(len(inputs)):
