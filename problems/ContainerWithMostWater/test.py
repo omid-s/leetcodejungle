@@ -1,4 +1,4 @@
-from problems.ContainerWithMostWater.solution_1 import Solution
+from problems.ContainerWithMostWater.solution_2 import Solution
 
 inputs = [
     [1, 8, 6, 2, 5, 4, 8, 3, 7],
