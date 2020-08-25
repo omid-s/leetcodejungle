@@ -64,3 +64,10 @@ def add_with_carry(n1: int, n2: int, carry=0):
     """
     num = n1 + n2 + carry
     return num % 10, num // 10
+
+
+def array_equal(a, b):
+    for x in a:
+        if x not in b:
+            return False
+    return len(a) == len(b)
