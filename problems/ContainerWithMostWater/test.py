@@ -2,7 +2,7 @@ from problems.ContainerWithMostWater.solution_1 import Solution
 
 inputs = [
     [1, 8, 6, 2, 5, 4, 8, 3, 7],
-    [1,3,40,50,2,16]
+    [1,3,40,50,2,12]
 ]
 
 outputs = [
