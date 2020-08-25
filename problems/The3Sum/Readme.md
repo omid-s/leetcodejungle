@@ -1,5 +1,5 @@
 # info 
 
-3 Sums 
+3 Sums closest 
 
-[leetcode](https://leetcode.com/problems/3sum/)
+[leetcode](https://leetcode.com/problems/3sum-closest/)
