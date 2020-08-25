@@ -71,3 +71,23 @@ def array_equal(a, b):
         if x not in b:
             return False
     return len(a) == len(b)
+
+
+def str2LinkedList(inp):
+    """
+    turns an string representation of the linked list into an actual linked list
+    :param inp: the "->" separated string representation
+    :return: the linked list head
+    """
+    items = inp.split("->")
+    return list_to_linked_list(items)
+
+
+def linkedlist2Str(inp):
+    """
+    turns a linked list into a -> separated string
+    :param inp: the linkedlist head
+    :return: the string representation
+    """
+    the_string = "->".join([str(x) for x in linked_list_to_list(inp)])
+    return the_string
