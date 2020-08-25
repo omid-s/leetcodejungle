@@ -1,16 +1,18 @@
-from problems.The3Sum.solution_1 import Solution
+from problems.The3Sum.solution_2 import Solution
 from classes.Tools import array_equal
 
 inputs = [
     [-1, 0, 1, 2, -1, -4],
-    [0,0,0]
+    [0,0,0],
+    [-1,0,1]
 ]
 outputs = [
     [
         [-1, 0, 1],
         [-1, -1, 2]
     ],
-    [[0, 0, 0]]
+    [[0, 0, 0]],
+    [[-1,0,1]]
 
 ]
 
