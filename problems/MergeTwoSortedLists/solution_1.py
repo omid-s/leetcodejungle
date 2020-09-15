@@ -3,9 +3,17 @@ from classes.ListNode import ListNode
 """
 # Info 
 
+This merges the lists in place with just one head and tail variabels added 
+
 # Results
+Runtime: 40 ms, faster than 59.03% of Python3 online submissions for Merge Two Sorted Lists.
+Memory Usage: 13.8 MB, less than 78.56% of Python3 online submissions for Merge Two Sorted Lists.
 
 # Analysis
+
+The algorithm runs through each list once at most (if a one list is finished faster, it will use just one operation
+for the other list). so Given the l1 and l2 of length |l1| and |l2| we have an runtime complexity of O(|l1|+|l2|) and
+a space complexity of O(|l1|+|l2|) in total. 
 
 """
 
