@@ -79,6 +79,9 @@ def str2LinkedList(inp):
     :param inp: the "->" separated string representation
     :return: the linked list head
     """
+    if len(inp.strip()) == 0:
+        return None
+
     items = inp.split("->")
     return list_to_linked_list(items)
 
