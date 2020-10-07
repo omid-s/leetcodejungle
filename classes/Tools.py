@@ -5,7 +5,7 @@ this file contains implementation for some shared functions to make life easier
 from classes.ListNode import ListNode
 
 
-def list_to_linked_list(inp):
+def list_to_linked_list(inp, as_int=True):
     """
     creates a linked list representing the given list
     :param inp: a list object
@@ -16,11 +16,11 @@ def list_to_linked_list(inp):
     if len(inp) == 0:
         return None
 
-    the_head = ListNode(inp[0])
+    the_head = ListNode(inp[0] if not as_int else int(inp[0]))
     the_tail = the_head
 
     for index in range(1, len(inp)):
-        new_item = ListNode(inp[index])
+        new_item = ListNode(inp[index] if not as_int else int(inp[index]))
         the_tail.next = new_item
         the_tail = new_item
 
@@ -73,7 +73,7 @@ def array_equal(a, b):
     return len(a) == len(b)
 
 
-def str2LinkedList(inp):
+def str2LinkedList(inp, as_int=True):
     """
     turns an string representation of the linked list into an actual linked list
     :param inp: the "->" separated string representation
@@ -83,7 +83,8 @@ def str2LinkedList(inp):
         return None
 
     items = inp.split("->")
-    return list_to_linked_list(items)
+
+    return list_to_linked_list(items, as_int=as_int)
 
 
 def linkedlist2Str(inp):
