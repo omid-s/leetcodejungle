@@ -1,4 +1,4 @@
-from problems.GenerateValidBrackets.solution_1 import Solution
+from problems.GenerateValidBrackets.solution_2 import Solution
 from classes.Tools import array_equal
 
 
