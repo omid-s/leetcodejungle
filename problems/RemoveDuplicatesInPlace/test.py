@@ -1,4 +1,4 @@
-from problems.RemoveDuplicatesInPlace.solution_1 import Solution
+from problems.RemoveDuplicatesInPlace.solution_2 import Solution
 
 inputs = [
     [1, 2, 3],
